@@ -105,9 +105,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 cpy = btmp.copy(btmp.getConfig(), true);
                 if(rs){
-                    toGrayRS(cpy, c);
+                    toGrayRS2(cpy, c);
                 }else{
-                    toGray(cpy);
+                    toGray2(cpy);
                 }
 
                 image.setImageBitmap(cpy);
